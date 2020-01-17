@@ -10,8 +10,9 @@ import UIKit
 import WebKit
 
 let LaunchFlag = "launchFlag"
-let KBaseUrlForChatBot = "https://esbot.jubi.ai/"
-let kParametersForChatBot = "?query=getstarted&id=channel.ios-customerId.12345678-name.Jhon"
+let KBaseUrlForChatBot = "https://staging.jubi.ai/Bzingabotdev_gen_295175974461/index.html"
+// CustomerId and Name should be dynamic
+let kParametersForChatBot = "?query=start&id=channel.ios-customerId.12345678-name.Jhon"
 
 class ChatBotVC: UIViewController, WKNavigationDelegate, WKScriptMessageHandler {
     var webView: WKWebView!
